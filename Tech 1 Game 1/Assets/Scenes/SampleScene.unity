@@ -5121,8 +5121,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bf113ee455465145abda2947b96f7a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Waypoints: []
-  speed: 0
+  Waypoints:
+  - {fileID: 2016231801}
+  - {fileID: 3339366}
+  - {fileID: 192426693}
+  speed: 5
   damage: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
