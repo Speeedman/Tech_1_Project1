@@ -30,11 +30,11 @@ public class EnemyActions : MonoBehaviour
         }
     }
 
-    /*private void OnCollisionEnter2D(Collision2D other)
+    private void OnCollisionEnter2D(Collision2D other)
      {
     if(other.gameObject.CompareTag("Player"))
       {
-         Health.TakeDamage(damage);
+         HP.TakeDamage(damage);
       }
-    }*/
+    }
 }
