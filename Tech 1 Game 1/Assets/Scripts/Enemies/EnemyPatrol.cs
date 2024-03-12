@@ -7,7 +7,7 @@ public class EnemyActions : MonoBehaviour
     public Transform[] Waypoints;
     int target;
     public float speed;
-    //public Hp health;
+    public Health HP;
     public float damage;
 
     // Start is called before the first frame update
