@@ -5213,7 +5213,7 @@ GameObject:
   - component: {fileID: 1767599827}
   - component: {fileID: 1767599828}
   m_Layer: 0
-  m_Name: Character-Front-View
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
