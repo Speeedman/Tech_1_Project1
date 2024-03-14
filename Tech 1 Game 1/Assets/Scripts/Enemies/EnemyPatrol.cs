@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyActions : MonoBehaviour
+public class EnemyPatrol : MonoBehaviour
 {
     public Transform[] Waypoints;
     int target;
     public float speed;
     public Health HP;
     public float damage;
+    public float EnemyHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,10 @@ public class EnemyActions : MonoBehaviour
         else
         {
             target = (target + 1) % Waypoints.Length;
+        }
+        if(EnemyHealth <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 

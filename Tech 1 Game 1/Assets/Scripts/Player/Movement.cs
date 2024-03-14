@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator anim;
     public SpriteRenderer Sprite;
-    private Vector2 dir;
+    public Vector2 dir;
 
     // Start is called before the first frame update
     void Start()
