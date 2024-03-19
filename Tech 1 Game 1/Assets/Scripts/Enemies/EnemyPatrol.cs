@@ -10,6 +10,8 @@ public class EnemyPatrol : MonoBehaviour
     public Health HP;
     public float damage;
     public float EnemyHealth;
+    public bool keyHolder;
+    public GameObject Key;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +33,11 @@ public class EnemyPatrol : MonoBehaviour
         }
         if(EnemyHealth <= 0)
         {
+            Destroy(gameObject);
+        }
+        if(EnemyHealth <= 0 && keyHolder == true)
+        {
+            Instantiate(Key, this.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

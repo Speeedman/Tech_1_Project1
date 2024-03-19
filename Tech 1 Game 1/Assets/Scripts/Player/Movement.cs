@@ -9,6 +9,8 @@ public class Movement : MonoBehaviour
     public Animator anim;
     public SpriteRenderer Sprite;
     public Vector2 dir;
+    public bool hasKey1;
+    public bool hasKey2;
 
     // Start is called before the first frame update
     void Start()
