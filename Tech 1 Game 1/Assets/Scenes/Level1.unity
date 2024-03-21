@@ -12130,7 +12130,7 @@ GameObject:
   - component: {fileID: 1962750943}
   - component: {fileID: 1962750942}
   m_Layer: 0
-  m_Name: Slime 2
+  m_Name: Boss Slime
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12201,7 +12201,7 @@ MonoBehaviour:
   speed: 5
   HP: {fileID: 1767599830}
   damage: 0.5
-  EnemyHealth: 3
+  EnemyHealth: 7
   keyHolder: 1
   Key: {fileID: 1396469398}
 --- !u!212 &1962750944
@@ -12460,7 +12460,7 @@ MonoBehaviour:
   speed: 5
   HP: {fileID: 1767599830}
   damage: 0.5
-  EnemyHealth: 1
+  EnemyHealth: 3
   keyHolder: 1
   Key: {fileID: 1902591958}
 --- !u!61 &2092892623
